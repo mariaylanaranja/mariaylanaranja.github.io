@@ -1,0 +1,78 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family:verdana; /* Changed to a more common font */
+    scroll-behavior: smooth;
+    background: #033d83;
+    color: white;
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #033d83; /* Unified color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header Section */
+header{ 
+    background: #033d83; /* Unified color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #033d83;
+    color: white;
+    padding: 2rem;
+    gap: 2rem; /* space between images and text */
+}
+
+
+/* Section Styling */
+section {
+    height: 100vh;
+    background-color: #033d83; /* Unified color */
+    color: white;
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Footer Styling */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #033d83; /* Unified color */
+    color: white;
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 1.5em; /* Increased space between paragraphs */
+}
